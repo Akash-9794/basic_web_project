@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div class="button-container">
+
+            <button onclick="displayVal =' ';
+            document.querySelector('#display').value = displayVal;">C</button>
+            
+            <button onclick="displayVal +='1';
+            document.querySelector('#display').value = displayVal;">1</button>
+            
+            <button onclick="displayVal +='2';
+            document.querySelector('#display').value = displayVal;">2</button>
+            
+            <button onclick="displayVal +='+';
+            document.querySelector('#display').value = displayVal;">+</button>
+            
+            <button onclick="displayVal +='3';
+            document.querySelector('#display').value = displayVal;">3</button>
+            
+            <button onclick="displayVal +='4';
+            document.querySelector('#display').value = displayVal;">4</button>
+            
+            <button onclick="displayVal +='-';
+            document.querySelector('#display').value = displayVal;">-</button>
+            
+            <button onclick="displayVal +='5';
+            document.querySelector('#display').value = displayVal;">5</button>
+            
+            <button onclick="displayVal +='6';
+            document.querySelector('#display').value = displayVal;">6</button>
+            
+            <button onclick="displayVal +='*';
+            document.querySelector('#display').value = displayVal;">*</button>
+            
+            <button onclick="displayVal +='7';
+            document.querySelector('#display').value = displayVal;">7</button>
+            
+            <button onclick="displayVal +='8';
+            document.querySelector('#display').value = displayVal;">8</button>
+            
+            <button onclick="displayVal +='/';
+            document.querySelector('#display').value = displayVal;">/</button>
+            
+            <button onclick="displayVal = eval(displayVal);
+            document.querySelector('#display').value = displayVal;"> = </button>
+            
+            <button onclick="displayVal +='9';
+            document.querySelector('#display').value = displayVal;">9</button>
+            
+            <button onclick="displayVal +='0';
+            document.querySelector('#display').value = displayVal;">0</button>
+            
+            <button onclick="displayVal +='.';
+            document.querySelector('#display').value = displayVal;">.</button>
+
+        </div>
+    </div>
+
+    <script>
+        let displayVal = ' ';
+        document.querySelector('#display').value = displayVal;
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #161414;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #466b65;
+}
+#page2 h1{
+    font-size: 41vw;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #101111;
+}
